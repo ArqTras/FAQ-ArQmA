@@ -153,9 +153,9 @@ synchronization.`
 `--rpc-restricted-bind-port arg        Port for restricted RPC server`
 
 `--restricted-rpc                      Restrict RPC to view only commands and do not return
-privacy sensitive data in RPC calls
+privacy sensitive data in RPC calls`
 
- `--bootstrap-daemon-address arg        URL of a 'bootstrap' remote daemon that the connected wallets can use while this daemon is still not fully synced`
+ `--bootstrap-daemon-address arg        URL of a bootstrap remote daemon that the connected wallets can use while this daemon is still not fully synced`
 
 `--bootstrap-daemon-login arg          Specify username:password for the bootstrap daemon login`
 
