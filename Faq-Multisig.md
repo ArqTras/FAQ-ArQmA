@@ -226,6 +226,7 @@ f: to change drive and then
 cd f:\temp\. Then, simply start the wallet from that location by its full path again: 
 
 c:\arqma\arqma-wallet-cli.exe --wallet-file mywallet.
- Notice how you don't have to write the full wallet path now as you're 
-already there with your shell. In this case, all the files mentioned 
-above would be written or read from the same folder as the wallet files.
+ Notice how you don't have to write the full wallet path now as you're already there with your shell. In this case, all the files mentioned above would be written or read from the same folder as the wallet files.
+
+
+Based on stackexchange.com
