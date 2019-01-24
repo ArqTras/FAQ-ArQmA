@@ -2,65 +2,45 @@
 
 ## The ArQmA Project - Secured Digital Currency
 
-Arqma&#39;s Vision:
+#### Arqma&#39;s Vision:
 
 1 Flexible, private, crypto currency with a payment gateway for e-commerce and personal use.
 
-ArQmA Features
+##### ArQmA Features
 
 2.1 Secure
-
 2.2 Lightweight
-
 2.3 Private and Untraceable
 2.4 Low Barrier to Participation
-
 2.5 No pseudo-centralization by ASICS, no arbitrage by Nicehash
 
-ArQmA Differentiation
+##### ArQmA Differentiation
 
 3.1 vs. Bitcoin
-
 3.2 vs. Litecoin
-
 3.3 vs. Monero
-
 3.4 vs. Dash
-
 3.5 vs. Zcash
-
 3.6 vs. Ripple
 
-ArQmA Implementation
+##### ArQmA Implementation
 
 4.1 Achieving Trust-less Transactions
-
 4.2 Achieving Anonymous Transactions, Open Alias support.
-
 4.3 Coin Minting Process
-
 4.4 Transaction Fees
 
-ArQmA Community
+##### ArQmA Community
 
 5.1 Links
-
 5.2 Mining
-
 5.3 Exchanges
-
 5.4 Wallets
-
 5.5 Development Team
-
 5.6 Current Work and Future Plans
-
 5.6.1 Road map of future work
-
 5.6.2 Future plans
-
 5.7 Network design and redundancy.
-
 5.8 Github repository report and sources of original code.
 
 ## Disclaimer
@@ -71,7 +51,7 @@ Neither the ArQmA development team, nor the community members, accept any legal 
 
 This White paper represents, at the date of the latest update, the current state and plans of the ArQmA community and developers. Since ArQmA is an open source project, details may change, and should not be considered final.  We are a community led project which is self financed. ArQmA is open to new ideas and technology to pursue and develop.
 
-## 1 Vision
+## Vision
 
 Technology impacts our financial lives in new ways every day, and the pace of change is accelerating. In the first decade of the 21st century broadband internet became Widely available, giving rise to the concept of online marketing and commerce. By 2015, mobile phone usage increased to rival desktop usage for online shopping. Researchers have estimated that by 2021 there may be over 2 billion mobile banking users.  In Some countries with unstable fiat currency situations, the people have considered going to crypto currency solutions for local banking.
 
