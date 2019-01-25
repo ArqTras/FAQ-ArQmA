@@ -1,4 +1,5 @@
-(no copyright) 1/24/2019
+Copyright 2019 The ArQmA Project
+
 # ArQmA 2/2 Multisig Wallet Transfers
 
 Purpose: Enable a balance on a joint account that requires 2 or more signatures from separate accounts and their respective digital signatures. A spend transaction that is one way only forward can then be created and enabled from both parties.
@@ -247,7 +248,10 @@ The escrow account can also be held by a third party with their own signature al
 That is why you set up a multisig account separate from your main spending wallet. You put funds in there that you know you are going to spend, but can possibly not get back depending on how you word the external contract or make and agreement with a third party or escrow.
 
 ----About this docuement.
-Based on stackexchange.com
-Account number references in this example are for monero and not ArQmA addresses.
+Based on stackexchange.com originally for Monero multisig transfers.
+Account number references in this example are for monero addresses and not ArQmA addresses, but the commands and syntax format is correct.
 Tested and verfied that this works exactly as described with ArQmA CLI wallet 0.2.2 Devil's Gate. 01/25/2019.
+Standard Disclaimer:
+The ArQmA Project is not responsible for users misunderstanding the nature of user's transactions and their intended use. This tutorial is not inclusive of every combination to the real world. Seek advice with your administrator or escrow agent for exact contract wording outside of ArQmA's financial private cryptocurrency technology. 
+
 -eof
