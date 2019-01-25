@@ -1,10 +1,16 @@
-## ArQmA 2/2 Multisig
+(no copyright) 1/24/2019
+# ArQmA 2/2 Multisig Wallet Transfers
 
-First, the wallet to be converted to multisig **must be empty**.
- It is best to use a brand-new walllet for the purpose, although not 
+Purpose: Enable a balance on a joint account that requires 2 or more signatures from separate accounts and their respective digital signatures. A spend transaction that is one way only forward can then be created and enabled from both parties.
+Refunds and recourses have to be dealt with the seller directly. 
+
+Also, a third party signer could also be enabled as an escrow agent could also enable pend forward only transactions or with both buyer and seller agreeing to cancel a purchase the escrow agent can send funds to one party, both or the seller with signoff signatures.
+
+First, the buyers wallet to be converted to multisig **must be empty**.
+ It is best to use a brand-new, separate  walllet for the purpose, although not 
 required. It is strongly advised to make a copy of the wallet files 
 first, just in case something goes wrong.
-
+Also the buyer needs to transfer funds from their normal spending wallet to this multisig wallet for personal security and anonymitiy reasons.
 ### Set-up
 
 #### Step 1 Initiate Creation of Multisig Wallet and Exchange Data
@@ -227,6 +233,21 @@ cd f:\temp\. Then, simply start the wallet from that location by its full path a
 
 c:\arqma\arqma-wallet-cli.exe --wallet-file mywallet.
  Notice how you don't have to write the full wallet path now as you're already there with your shell. In this case, all the files mentioned above would be written or read from the same folder as the wallet files.
+--------------------
+Typical usage scenarios:
 
+The above are instructions on how to operate the cli wallet with two parties having control of a joint account. Once configured, each party can deposit coins, but both have to exchange signed files to spend from that joint account. 
+So for example, you have a contract with someone, you can put the coins in this joint account for goods and services like an escrow. Both parties have to sign it before there is a transfer complete to the destination account. Which would becoins sent to the seller from the escrow from the buyer. Both parties can see that there are funds from buyer to escrow, and then to the seller.  Still, it can be completely private to the outside world unless they are giving up the necessary information to the puiblic.
+When you send a cryptonote transaction, its a one way, no return trip thing. So, when the money is in escrow joint multisig account, then it's already commited by the buyer to escrow.
 
+It would take both parties to cancel and return the funds to the buyer, or complete the transaction and send the coins to the seller.
+
+The escrow account can also be held by a third party with their own signature also.
+
+That is why you set up a multisig account separate from your main spending wallet. You put funds in there that you know you are going to spend, but can possibly not get back depending on how you word the external contract or make and agreement with a third party or escrow.
+
+----About this docuement.
 Based on stackexchange.com
+Account number references in this example are for monero and not ArQmA addresses.
+Tested and verfied that this works exactly as described with ArQmA CLI wallet 0.2.2 Devil's Gate. 01/25/2019.
+-eof
