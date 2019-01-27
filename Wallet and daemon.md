@@ -167,7 +167,7 @@ privacy sensitive data in RPC calls`
 
 `--rpc-access-control-origins arg      Specify a comma separated list of origins to allow cross origin resource sharing`
 
-#####  1. ArQmA windows wallet-cli options
+#####  2. ArQmA windows wallet-cli options
 
 ArQmA 'Devil's Gate' (v0.2-Tagged_Release::cd4f554)
 
