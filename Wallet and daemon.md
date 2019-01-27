@@ -178,45 +178,85 @@ Usage:
 `  arqma-wallet-cli [--wallet-file=<file>|--generate-new-wallet=<file>] [<COMMAND>]`
 
 General options:
-  `--help                                Produce help message`
-  `--version                             Output version information`
+  `--help Produce help message`
+
+  `--version Output version information`
 Wallet options:
-  `--daemon-address arg                  Use daemon instance at <host>:<port>`
-  `--daemon-host arg                     Use daemon instance at host <arg>                                        instead of localhost`
-  `--trusted-daemon                      Enable commands which rely on a trusted                                       daemon`
-  `--untrusted-daemon                    Disable commands which rely on a                                        trusted daemon`
-  `--password arg                        Wallet password (escape/quote as                                        needed)`
-  `--password-file arg                   Wallet password file`
-  `--daemon-port arg (=0)                Use daemon instance at port <arg>                                        instead of 19993`
-  `--daemon-login arg                    Specify username[:password] for daemon                                        RPC client`
-  `--testnet                             For testnet. Daemon must also be                                        launched with --testnet flag`
-  `--stagenet                            For stagenet. Daemon must also be                                        launched with --stagenet flag`
+
+  `--daemon-address arg  Use daemon instance at <host>:<port>`
+
+  `--daemon-host arg Use daemon instance at host <arg> instead of localhost`
+
+  `--trusted-daemon Enable commands which rely on a trusted daemon`
+
+  `--untrusted-daemon Disable commands which rely on a trusted daemon`
+
+  `--password arg Wallet password (escape/quote as needed)`
+
+  `--password-file arg Wallet password file`
+
+  `--daemon-port arg (=0) Use daemon instance at port <arg> instead of 19993`
+
+  `--daemon-login arg Specify username[:password] for daemon RPC client`
+
+  `--testnet For testnet. Daemon must also be launched with --testnet flag`
+
+  `--stagenet For stagenet. Daemon must also be launched with --stagenet flag`
+
   `--shared-ringdb-dir arg (=C:\ProgramData\.shared-ringdb, C:\ProgramData\.shared-ringdb\testnet if 'testnet', C:\ProgramData\.shared-ringdb\stagenet if 'stagenet') Set shared ring database path`
-  `--kdf-rounds arg (=1)                 Number of rounds for the key derivation                                        function`
-  `--hw-device arg                       HW device to use`
-  `--tx-notify arg                       Run a program for each new incoming                                        transaction, '%s' will be replaced by the transaction hash`
-  `--wallet-file arg                     Use wallet <arg>`
-  `--generate-new-wallet arg             Generate new wallet and save it to                                        <arg>`
-  `--generate-from-device arg            Generate new wallet from device and                                        save it to <arg>`
+
+  `--kdf-rounds arg (=1) Number of rounds for the key derivation function`
+
+  `--hw-device arg HW device to use`
+
+  `--tx-notify arg Run a program for each new incoming transaction, '%s' will be replaced by the transaction hash`
+
+  `--wallet-file arg Use wallet <arg>`
+
+  `--generate-new-wallet arg Generate new wallet and save it to <arg>`
+
+  `--generate-from-device arg Generate new wallet from device and save it to <arg>`
+
   `--generate-from-view-key arg          Generate incoming-only wallet from view key`
+
   `--generate-from-spend-key arg         Generate deterministic wallet from spend key`
+
   `--generate-from-keys arg              Generate wallet from private keys`
+
   `--generate-from-multisig-keys arg     Generate a master wallet from multisig wallet keys`
+
   `--generate-from-json arg              Generate wallet from JSON format file`
+
   `--mnemonic-language arg               Language for mnemonic`
+
   `--command arg`
-  `--restore-deterministic-wallet        Recover wallet using Electrum-style                                        mnemonic seed`
-  `--restore-multisig-wallet             Recover multisig wallet using                                        Electrum-style mnemonic seed`
-  `--non-deterministic                   Generate non-deterministic view and                                        spend keys`
-  `--electrum-seed arg                   Specify Electrum seed for wallet                                        recovery/creation`
+
+  `--restore-deterministic-wallet        Recover wallet using Electrum- style mnemonic seed`
+
+  `--restore-multisig-wallet             Recover multisig wallet using Electrum-style mnemonic seed`
+
+  `--non-deterministic                   Generate non-deterministic view and spend keys`
+
+  `--electrum-seed arg                   Specify Electrum seed for wallet recovery/creation`
+
   `--allow-mismatched-daemon-version     Allow communicating with a daemon that uses a different RPC version`
+
   `--restore-height arg (=0)             Restore from specific blockchain height`  
-  `--do-not-relay                        The newly created transaction will not                                        be relayed to the ArQ-Net`
+
+  `--do-not-relay                        The newly created transaction will not be relayed to the ArQ-Net`
+
   `--create-address-file                 Create an address file for new wallets`
-  `--subaddress-lookahead arg            Set subaddress lookahead sizes to                                        <major>:<minor>`
+
+  `--subaddress-lookahead arg            Set subaddress lookahead sizes to <major>:<minor>`
+
   `--use-english-language-names          Display English language names`
+
   `--log-file arg                        Specify log file`
+
   `--log-level arg                       0-4 or categories`
+
   `--max-log-file-size arg (=104850000)  Specify maximum log file size [B]`
-  `--max-concurrency arg (=0)            Max number of threads to use for a                                        parallel job`
+
+  `--max-concurrency arg (=0)            Max number of threads to use for a parallel job`
+
   `--config-file arg                     Config file`
