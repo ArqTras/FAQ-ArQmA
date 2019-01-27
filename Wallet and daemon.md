@@ -175,12 +175,15 @@ This is the command line arqma wallet. It needs to connect to a arqma
 daemon to work correctly.
 
 Usage:
+
 `  arqma-wallet-cli [--wallet-file=<file>|--generate-new-wallet=<file>] [<COMMAND>]`
 
 General options:
+
   `--help Produce help message`
 
   `--version Output version information`
+
 Wallet options:
 
   `--daemon-address arg  Use daemon instance at <host>:<port>`
