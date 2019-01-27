@@ -1,5 +1,5 @@
 # FAQ-ArQmA
-![alt text](https://raw.githubusercontent.com/ArqTras/FAQ-ArQmA/pic/arqma.png)
+![arqma](https://github.com/ArqTras/FAQ-ArQmA/blob/master/pic/arqma.png)
 
 *** ArQmA_Network ***
 https://github.com/ArqTras/FAQ-ArQmA/blob/master/ArQmA-Like.md
